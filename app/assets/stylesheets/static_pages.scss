@@ -1,3 +1,30 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body.static_pages.home {
+  .main-container {
+    height: 100vh;
+  }
+
+  .row {
+    height: 100%;
+  }
+
+  .email-col {
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+
+    form {
+      padding: 0% 25%;
+      textarea {
+        margin-bottom: 1em;
+      }
+
+      .user-btn {
+        font-size: 1.2em;
+      }
+    }
+  }
+}

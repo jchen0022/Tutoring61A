@@ -1,0 +1,14 @@
+<div class="container-fluid main-container">
+  <div class="row">
+    <div class="col-md-12 email-col">
+      <%= form_for :student, method: "get", url: calendar_path do |f| %>
+
+        <h3><%= f.label "Enter email to get started" %></h3>
+        <%= f.text_area :email, class: "form-control" %>
+
+        <%= f.submit "Submit", class: "btn btn-primary user-btn" %>
+
+        <% end %>
+    </div>
+  </div>
+</div>
