@@ -1,0 +1,2 @@
+class TutoringSessionStudent < ApplicationRecord
+end
